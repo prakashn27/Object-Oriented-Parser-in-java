@@ -1,7 +1,7 @@
 Object-Oriented-Parser-
 =======================
 
-Grammar for TinyPL (using EBNF notation) is as follows:
+####Grammar for TinyPL (using EBNF notation) is as follows:
 
  program ->  decls stmts end    
  decls   ->  int idlist ;	
