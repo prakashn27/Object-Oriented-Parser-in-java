@@ -3,9 +3,9 @@ Object-Oriented-Parser-
 
 Grammar for TinyPL (using EBNF notation) is as follows:
 
- program ->  decls stmts end
- decls   ->  int idlist ;
- idlist  ->  id { , id } 
+ program ->  decls stmts end    
+ decls   ->  int idlist ;	
+ idlist  ->  id { , id } 	
  stmts   ->  stmt [ stmts ]
  cmpdstmt->  '{' stmts '}'
  stmt    ->  assign | cond | loop
