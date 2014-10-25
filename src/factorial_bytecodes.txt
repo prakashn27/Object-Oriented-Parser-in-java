@@ -1,0 +1,47 @@
+Enter program and terminate with 'end'!
+
+int n, i, f;
+n = 4;
+i = 1;
+f = 1;
+while (i < n) {
+	i = i + 1;
+	f= f * i;
+}
+end
+
+Java Byte Codes are:
+
+0: iconst_4
+1: istore_0
+2: iconst_1
+3: istore_1
+4: iconst_1
+5: istore_2
+6: iload_1
+7: iload_0
+8: if_icmpge 22
+11: iload_1
+12: iconst_1
+13: iadd
+14: istore_1
+15: iload_2
+16: iload_1
+17: imul
+18: istore_2
+19: goto 6
+22: return
+
+My Output:
+0: iconst_n
+1: iconst_i
+2: iconst_f
+3: iload_1
+4: iload_0
+5: if_icmpge
+6: iload_1
+7: iconst_i
+8: iadd
+9: iload_2
+10: iload_1
+11: imul
